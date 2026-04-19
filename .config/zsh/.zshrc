@@ -5,6 +5,8 @@ setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
+alias ls='ls --color=auto'
+
 # History in cache directory:
 HISTSIZE=10000000
 SAVEHIST=10000000
