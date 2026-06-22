@@ -70,6 +70,7 @@ Configuration files to be used on an Arch Linux system. Assumes wayland.
 - ttc-iosevka
 - uv
 - vi
+- wireplumber
 - wl-clipboard
 - wmenu
 - yt-dlp
