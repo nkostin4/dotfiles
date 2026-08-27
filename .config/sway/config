@@ -25,7 +25,7 @@ gaps outer 10
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output "*" bg ~/.local/share/bg/00.jpg fill
+output "*" bg ~/.local/share/bg/04.png fill
 # output * bg #ffffff solid_color
 #
 # Example configuration:
