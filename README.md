@@ -1,0 +1,89 @@
+# nkostin's dotfiles
+
+---
+
+My configuration files for my Arch Linux + Sway system.
+
+## Required Packages
+
+- alacritty
+- base
+- base-devel
+- biber
+- chromium
+- efibootmgr
+- ffmpeg
+- firefox
+- git
+- grim
+- grub
+- htop
+- imv
+- jq
+- linux
+- linux-firmware
+- man-db
+- mpv
+- neovim
+- networkmanager
+- noto-fonts
+- noto-fonts-cjk
+- noto-fonts-emoji
+- noto-fonts-extra
+- openssh
+- pandoc-cli
+- pipewire-pulse
+- poppler
+- pulsemixer
+- rsync
+- slurp
+- sway
+- swaybg
+- texlive-basic
+- texlive-bibtexextra
+- texlive-binextra
+- texlive-context
+- texlive-fontsextra
+- texlive-fontsrecommended
+- texlive-fontutils
+- texlive-formatsextra
+- texlive-games
+- texlive-humanities
+- texlive-langarabic
+- texlive-langchinese
+- texlive-langcjk
+- texlive-langcyrillic
+- texlive-langczechslovak
+- texlive-langenglish
+- texlive-langeuropean
+- texlive-langfrench
+- texlive-langgerman
+- texlive-langgreek
+- texlive-langitalian
+- texlive-langjapanese
+- texlive-langkorean
+- texlive-langother
+- texlive-langpolish
+- texlive-langportuguese
+- texlive-langspanish
+- texlive-latex
+- texlive-latexextra
+- texlive-latexrecommended
+- texlive-luatex
+- texlive-mathscience
+- texlive-metapost
+- texlive-music
+- texlive-pictures
+- texlive-plaingeneric
+- texlive-pstricks
+- texlive-publishers
+- texlive-xetex
+- ttc-iosevka
+- uv
+- wireplumber
+- wl-clipboard
+- wmenu
+- yt-dlp
+- zathura
+- zathura-pdf-mupdf
+- zsh
