@@ -1,7 +1,7 @@
 #!/bin/sh
 
-INPUT="31.mp3"
-TIMESTAMPS="timestamps_31"
+INPUT="audio.mp3"
+TIMESTAMPS="timestamps"
 
 prev=""
 

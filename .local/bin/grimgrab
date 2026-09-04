@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Directory in which to save screenshots
+# Directory for saving screenshots
 directory="$HOME"
 
 # Generate filename based on date and time
