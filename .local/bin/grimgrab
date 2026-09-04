@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# Directory in which to save screenshots
+directory="$HOME"
+
+# Generate filename based on date and time
+output="$(date '+%Y-%m-%d_%H-%M-%S').png"
+
+# Ask which type of screenshot to take
+choice=$(
+    printf "a selected area\nfull screen\na selected area (copy)\nfull screen (copy)" |
+        wmenu -l 4 -i -p "Screenshot which area?"
+)
+
+case "$choice" in
+    "a selected area")
+        grim -g "$(slurp)" "$directory/$output"
+        ;;
+
+    "full screen")
+        grim "$directory/$output"
+        ;;
+
+    "a selected area (copy)")
+        grim -g "$(slurp)" "$directory/$output"
+        wl-copy < "$directory/$output"
+        ;;
+
+    "full screen (copy)")
+        grim "$directory/$output"
+        wl-copy < "$directory/$output"
+        ;;
+
+    *)
+        # User cancelled wmenu
+        exit 1
+        ;;
+esac
