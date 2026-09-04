@@ -1,10 +1,8 @@
 # nkostin's dotfiles
 
----
+Configuration files for my Arch Linux + Sway system.
 
-My configuration files for my Arch Linux + Sway system.
-
-## Required Packages
+## Required packages
 
 - alacritty
 - base
