@@ -6,6 +6,7 @@ chromium
 efibootmgr
 ffmpeg
 firefox
+ghostty
 git
 grim
 grub
@@ -72,6 +73,7 @@ texlive-publishers
 texlive-xetex
 ttc-iosevka
 uv
+waybar
 wireplumber
 wl-clipboard
 wmenu
