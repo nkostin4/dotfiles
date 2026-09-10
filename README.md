@@ -1,6 +1,6 @@
 # nkostin's configuration files
 
-Configuration files for my Arch Linux + Sway system.
+Configuration files and some scripts for my Arch Linux + Sway system.
 
 ## Required packages
 
