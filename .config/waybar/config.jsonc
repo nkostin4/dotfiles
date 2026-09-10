@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["wireplumber", "battery", "sway/language", "clock"],
+    "sway/window": {
+	"max-length": 50
+    },
+    "wireplumber": {
+	"format": "{volume}%"
+    },
+    "sway/language": {
+	"format": "{short}"
+    },
+    "battery": {
+	"format": "BAT0: {capacity}% {icon}",
+	"format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+	"format-alt": "{:%a, %d. %b  %H:%M}"
+    }
+}
