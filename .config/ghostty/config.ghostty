@@ -1,0 +1,6 @@
+font-family = "Iosevka"
+font-size = 18
+
+window-inherit-working-directory = false
+
+theme = "Catppuccin Latte"
