@@ -1,4 +1,4 @@
-# nkostin's dotfiles
+# nkostin's configuration files
 
 Configuration files for my Arch Linux + Sway system.
 
@@ -12,6 +12,7 @@ Configuration files for my Arch Linux + Sway system.
 - efibootmgr
 - ffmpeg
 - firefox
+- ghostty
 - git
 - grim
 - grub
@@ -78,6 +79,7 @@ Configuration files for my Arch Linux + Sway system.
 - texlive-xetex
 - ttc-iosevka
 - uv
+- waybar
 - wireplumber
 - wl-clipboard
 - wmenu
