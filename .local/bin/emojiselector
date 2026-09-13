@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+emoji_file="$HOME/.local/share/emoji"
+
+if ! selection=$(wmenu -l 20 -i -p "Select an emoji" < "$emoji_file"); then
+    exit 0
+fi
+
+[ -z "$selection" ] && exit 0
+
+emoji=${selection%% *}
+
+wl-copy "$emoji"
+
+notify-send "Emoji copied" "$emoji copied to clipboard"
