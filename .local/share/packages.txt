@@ -13,8 +13,10 @@ grub
 htop
 imv
 jq
+libnotify
 linux
 linux-firmware
+mako
 man-db
 mpv
 neovim
@@ -74,6 +76,7 @@ texlive-xetex
 ttc-iosevka
 uv
 waybar
+wget
 wireplumber
 wl-clipboard
 wmenu
