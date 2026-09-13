@@ -1,6 +1,6 @@
-# nkostin's configuration files
+# nkostin's dotfiles
 
-Configuration files and some scripts for my Arch Linux + Sway system.
+My configuration files for my Arch Linux + Sway (Wayland) system.
 
 ## Required packages
 
@@ -19,8 +19,10 @@ Configuration files and some scripts for my Arch Linux + Sway system.
 - htop
 - imv
 - jq
+- libnotify
 - linux
 - linux-firmware
+- mako
 - man-db
 - mpv
 - neovim
@@ -80,6 +82,7 @@ Configuration files and some scripts for my Arch Linux + Sway system.
 - ttc-iosevka
 - uv
 - waybar
+- wget
 - wireplumber
 - wl-clipboard
 - wmenu
