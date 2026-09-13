@@ -21,6 +21,7 @@ set $menu wmenu-run
 gaps inner 10
 gaps outer 10
 
+exec mako
 
 ### Output configuration
 #
@@ -234,6 +235,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     bindsym Print exec grimgrab
+    bindsym $mod+grave exec emojiselector
 
 #
 # Status Bar:
