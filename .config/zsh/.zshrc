@@ -6,6 +6,9 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments
 
 alias ls='ls --color=auto'
+alias mv='mv -v'
+alias cp='cp -v'
+alias rm='rm -v'
 
 # History in cache directory:
 HISTSIZE=10000000
