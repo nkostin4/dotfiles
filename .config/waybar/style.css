@@ -33,7 +33,7 @@ tooltip label {
      border-bottom: 4px solid white;
 }
 
-#mode, #clock, #battery, #wireplumber, #language {
+#mode, #clock, #language, #cpu, #memory, #battery, #wireplumber {
     padding: 0 10px;
     border-right: 1px solid #ffffff;
 }

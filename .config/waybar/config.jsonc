@@ -1,22 +1,30 @@
 {
-    "layer": "top",
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["wireplumber", "battery", "sway/language", "clock"],
-    "sway/window": {
-	"max-length": 50
-    },
-    "wireplumber": {
-	"format": "{volume}%"
-    },
-    "sway/language": {
-	"format": "{short}"
-    },
-    "battery": {
-	"format": "BAT0: {capacity}% {icon}",
-	"format-icons": ["", "", "", "", ""]
-    },
-    "clock": {
-	"format-alt": "{:%a, %d. %b  %H:%M}"
-    }
+	"layer": "top",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["sway/window"],
+	"modules-right": ["wireplumber", "battery", "memory", "cpu", "sway/language", "clock"],
+	"sway/window": {
+		"max-length": 50
+	},
+	"wireplumber": {
+		"format": "🔊 {volume}%"
+	},
+	"battery": {
+		"format": "🔋 {capacity}%"
+	},
+	"memory": {
+		"interval": 10,
+		"format": "🐏 {}%"
+	},
+	"cpu": {
+		"interval": 10,
+		"format": "🧠 {}%"
+	},
+	"sway/language": {
+		"format": "{short}"
+	},
+	"clock": {
+		"interval": 1,
+		"format": "{:%Y-%m-%d %H:%M:%S}"
+	}
 }
