@@ -26,7 +26,7 @@ exec mako
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output "*" bg ~/.local/share/bg/00.png fill
+output "*" bg ~/.local/share/bg/06.png fill
 # output * bg #ffffff solid_color
 #
 # Example configuration:
@@ -73,9 +73,9 @@ input type:touchpad {
 
 input type:keyboard {
 	xkb_layout "us,ru,fr"
-	xkb_options "grp:win_space_toggle"
+	xkb_options "grp:win_space_toggle,caps:swapescape"
 	repeat_delay 300
-	repeat_rate 40
+	repeat_rate 100
 }
 
 input type:pointer {
