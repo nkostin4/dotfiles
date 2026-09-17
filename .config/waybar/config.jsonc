@@ -25,6 +25,7 @@
 	},
 	"clock": {
 		"interval": 1,
-		"format": "{:%Y-%m-%d %H:%M:%S}"
+		"locale": "fr_FR.UTF-8",
+		"format": "{:L%A %Y-%m-%d %H:%M:%S}"
 	}
 }
