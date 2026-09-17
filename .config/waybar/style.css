@@ -34,10 +34,10 @@ tooltip label {
 
 #mode, #clock, #language, #cpu, #memory, #battery, #wireplumber {
 	padding: 0 10px;
-	border-right: 1px solid #ffffff;
+	border-right: 2px solid #ffffff;
 }
 
 #mode {
 	background: #64727D;
-	border-bottom: 3px solid white;
+	border-bottom: 2px solid white;
 }
