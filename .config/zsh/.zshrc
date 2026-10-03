@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias mv='mv -v'
 alias cp='cp -v'
 alias rm='rm -v'
+alias vimtutor='nvim --clean +Tutor'
 
 # History in cache directory:
 HISTSIZE=10000000
