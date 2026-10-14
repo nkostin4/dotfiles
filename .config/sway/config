@@ -26,7 +26,7 @@ exec mako
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output "*" bg ~/.local/share/bg/06.png fill
+output "*" bg ~/.local/share/bg/00.png fill
 # output * bg #ffffff solid_color
 #
 # Example configuration:
@@ -236,6 +236,7 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grimgrab
     bindsym $mod+grave exec emojiselector
+    bindsym $mod+Insert exec sh -c 'wtype "$(grep -v '^#' ~/.local/share/bookmarks | wmenu -i -l 20 | cut -d' ' -f1)" && swaymsg input type:keyboard xkb_switch_layout next && swaymsg input type:keyboard xkb_switch_layout prev'
 
 #
 # Status Bar:
