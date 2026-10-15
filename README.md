@@ -1,8 +1,8 @@
-# nkostin's dotfiles
+# nkostin's configuration files
 
-My configuration files for my Arch Linux + Sway (Wayland) system.
+Configuration files for my Arch Linux + Sway system.
 
-## Required packages
+## Required Packages
 
 - alacritty
 - base
@@ -17,6 +17,7 @@ My configuration files for my Arch Linux + Sway (Wayland) system.
 - grim
 - grub
 - htop
+- imagemagick
 - imv
 - jq
 - libnotify
@@ -86,6 +87,7 @@ My configuration files for my Arch Linux + Sway (Wayland) system.
 - wireplumber
 - wl-clipboard
 - wmenu
+- wtype
 - yt-dlp
 - zathura
 - zathura-pdf-mupdf
